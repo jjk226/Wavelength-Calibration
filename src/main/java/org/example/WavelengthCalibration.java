@@ -16,8 +16,11 @@ public class WavelengthCalibration {
         System.out.println(">> start program");
 
         JFileChooser j = new JFileChooser("C:/Users/ECI/oceanview/");
+        j.setDialogTitle("Spectrometer Wavelength Calibration");
+
         j.showOpenDialog(null);
         String url = j.getSelectedFile().toString();
+
         System.out.println(">> text file location: " + url);
 
 //        String url = "C:/Users/jamekim/oceanview/USB2U361721__0__10-40-28-719.txt";

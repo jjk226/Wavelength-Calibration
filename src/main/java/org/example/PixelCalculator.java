@@ -31,8 +31,9 @@ public class PixelCalculator{
             pixelsCubed[i] = Math.pow(maxCalReferenceAndPixel[i][1], 3);
         }
 
+        System.out.println("pixels" + "   " + "pixels^2" + "   " + "pixels^3");
         for (int i = 0; i < pixels.length; i++) {
-            System.out.println(pixels[i] + "   " + pixelsSquared[i] + "   " + pixelsCubed[i]);
+            System.out.println(pixels[i] + "     " + pixelsSquared[i] + "    " + pixelsCubed[i]);
         }
     }
 
